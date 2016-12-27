@@ -13,10 +13,10 @@ See the complete guide here: [Cloning a repository from GitHub using the command
 ```
 git pull origin <branch_name>
 
-// example
-// first: move to your local branch "master"
+# example
+# first: move to your local branch "master"
 git checkout master
-// second: pull all changes from the "master" remote branch and merge it to the "master" local branch
+# second: pull all changes from the "master" remote branch and merge it to the "master" local branch
 git pull origin master
 ```
 
@@ -40,6 +40,12 @@ git push -u origin <tag_name>
 git push -u origin --tags
 ```
 
+
+### List all existing tags
+```
+git tag -n
+```
+The -n flag displays the first line of the annotation message along with the tag, or the first commit message line if the tag is not annotated.
 
 ### Create a tag
 ```
