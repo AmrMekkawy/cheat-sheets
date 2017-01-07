@@ -88,7 +88,7 @@ $ bower install jquery#1.7.0 --save
 $ bower uninstall <package_name> --save
 ```
 
-### Uninstall multiple packages and update bower.json to reflect changes (uninstalled pachages)..
+### Uninstall multiple packages and update bower.json to reflect changes (uninstalled packages)..
 
 ```
 $ bower uninstall <package_name1> <package_name2> <package_nameN> --save
