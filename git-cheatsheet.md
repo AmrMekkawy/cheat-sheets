@@ -1,6 +1,21 @@
 # git-cheatsheet
 A cheat sheet for common and repeatedly used commands in **git** version control system.
 
+## Clone
+
+### Clone a whole repository (including all branches)..
+
+```
+git clone <remote_repo_url> [<name_of_the_folder_to_clone_the_branch_in>]
+```
+
+### Clone a single branch (without inadvertently cloning the whole project)..
+
+```
+git clone <remote_repo_url> --branch <name_of_desired_branch> --single-branch [<name_of_the_folder_to_clone_the_branch_in>]
+```
+`--single-branch` flag to prevent fetching of all branches of the repo.
+
 ## Pull
 
 ### Pull down all changes that have been made to a specific branch..
