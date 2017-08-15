@@ -6,7 +6,7 @@ A cheat sheet for common and repeatedly used commands in **git** version control
 ### Clone a whole repository (including all branches)..
 
 ```
-git clone <remote_repo_url> [<name_of_the_folder_to_clone_the_branch_in>]
+git clone <remote_repo_url> [<name_of_the_folder_to_clone_the_repo_in>]
 ```
 
 ### Clone a single branch (without inadvertently cloning the whole project)..
