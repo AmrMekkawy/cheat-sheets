@@ -38,6 +38,19 @@ git checkout master
 git pull origin master
 ```
 
+**Example 2..**
+1- First: move to your local branch that you want to pull updates to (say branch "alpha")..
+
+```
+git checkout alpha
+```
+
+2- Second: pull all changes from the **alpha** remote branch and merge it to the **alpha** local branch..
+
+```
+git pull origin alpha
+```
+
 ## Push
 
 ### Push local changes up to a remote repository..
