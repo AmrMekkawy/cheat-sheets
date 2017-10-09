@@ -18,37 +18,24 @@ git clone <remote_repo_url> --branch <name_of_desired_branch> --single-branch [<
 
 ## Pull
 
-### Pull down all changes that have been made to a specific branch..
+### Pull down, into the current branch, all changes that have been made to a specific remote branch..
 
 ```
-git pull origin <branch_name>
+git pull origin <remote_branch_name>
 ```
 
 **Example..**
 
-1- First: move to your local branch that called **master**..
+1- First: move to your local branch that you want to pull updates to (say branch "dev" for example)..
 
 ```
-git checkout master
+git checkout dev
 ```
 
-2- Second: pull all changes from the **master** remote branch and merge it to the **master** local branch..
+2- Second: pull all changes from the **master** remote branch and merge it into the **dev** local branch..
 
 ```
 git pull origin master
-```
-
-**Example 2..**
-1- First: move to your local branch that you want to pull updates to (say branch "alpha")..
-
-```
-git checkout alpha
-```
-
-2- Second: pull all changes from the **alpha** remote branch and merge it to the **alpha** local branch..
-
-```
-git pull origin alpha
 ```
 
 ## Push
