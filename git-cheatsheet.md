@@ -75,6 +75,8 @@ git pull origin master
 git push -u origin <branch_name>
 ```
 
+<br>
+
 **Push all branches..**
 
 ```powershell
@@ -90,6 +92,8 @@ git push -u origin --all
 ```powershell
 git push -u origin <tag_name>
 ```
+
+<br>
 
 **Push all tags..**
 
@@ -124,6 +128,8 @@ git tag -a <tag_name> -m "<tag_message>"
 git tag -a 1.0.0 -m "version 1.0.0"
 ```
 
+<br>
+
 **Create a tag to a specific commit..**
 
 ```powershell
@@ -136,9 +142,11 @@ git tag -a <tag_name> <commit_id> -m "<tag_message>"
 git tag -a 0.1.5 e3ef9dc -m "version 0.1.5"
 ```
 
+<br>
+
 **Clone a specific tag..**
 
-See the [Clone](#clone) section
+See the [Clone a specific tag from a remote repo](#clone-a-specific-tag-from-a-remote-repo) section
 
 <br>
 
@@ -167,11 +175,15 @@ Note that you need to move to another branch first..
 git branch --delete <branch_name>
 ```
 
+<br>
+
 **Force delete un-merged branches..**
 
 ```powershell
 git branch -D <branch_name>
 ```
+
+<br>
 
 **Delete a remote branch..**
 
@@ -196,6 +208,8 @@ git checkout <branch_name>
 ```powershell
 git branch
 ```
+
+<br>
 
 **List all local and remote branches..**
 
