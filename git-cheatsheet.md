@@ -292,6 +292,17 @@ git remote add origin <remote_repository_url>
 
 <br>
 
+## How to ignore files that have already been committed to the repo?
+
+```
+git rm -r --cached .
+git add .
+git commit -m "Clean up ignored files"
+```
+[Source](https://www.git-tower.com/learn/git/faq/ignore-tracked-files-in-git)
+
+<br>
+
 ## Various Things
 
 ### Adding an existing project to GitHub using the command line
