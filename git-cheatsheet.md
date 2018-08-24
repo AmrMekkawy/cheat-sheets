@@ -144,6 +144,22 @@ git tag -a 0.1.5 e3ef9dc -m "version 0.1.5"
 
 <br>
 
+**Delete a local tag..**
+
+```
+git tag --delete tag_name_here
+```
+
+<br>
+
+**Delete a remote tag..**
+
+```
+git push --delete origin tag_name_here
+```
+
+<br>
+
 **Clone a specific tag..**
 
 See the [Clone a specific tag from a remote repo](#clone-a-specific-tag-from-a-remote-repo) section
