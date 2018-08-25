@@ -328,3 +328,8 @@ See the complete guide here: [Adding an existing project to GitHub using the com
 
 ### Cloning a repository from GitHub using the command line
 See the complete guide here: [Cloning a repository from GitHub using the command line](https://help.github.com/articles/cloning-a-repository)
+
+<br>
+
+### Unlinking a locally cloned repository from its GitHub origin
+See this: [Unlinking a locally cloned repository from its GitHub origin](https://stackoverflow.com/a/23788536/458204)
