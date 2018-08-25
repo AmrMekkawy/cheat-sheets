@@ -332,4 +332,4 @@ See the complete guide here: [Cloning a repository from GitHub using the command
 <br>
 
 ### Unlinking a locally cloned repository from its GitHub origin
-See this: [Unlinking a locally cloned repository from its GitHub origin](https://stackoverflow.com/a/23788536/458204)
+See: [Unlinking a locally cloned repository from its GitHub origin](https://stackoverflow.com/a/23788536/458204) and [Removing a remote](https://help.github.com/articles/removing-a-remote/)
