@@ -333,3 +333,8 @@ See the complete guide here: [Cloning a repository from GitHub using the command
 
 ### Unlinking a locally cloned repository from its GitHub origin
 See: [Unlinking a locally cloned repository from its GitHub origin](https://stackoverflow.com/a/23788536/458204) and [Removing a remote](https://help.github.com/articles/removing-a-remote/)
+
+<br>
+
+### How to undo the most recent commits in Git?
+[See this answer on stackoverflow.com](https://stackoverflow.com/a/6866485/458204)
