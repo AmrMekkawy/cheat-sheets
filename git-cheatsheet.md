@@ -176,6 +176,14 @@ git branch <branch_name>
 
 <br>
 
+### Create a new branch of the branch you are currently on and switch to it directly
+
+```powershell
+git checkout -b <branch_name>
+```
+
+<br>
+
 ### Rename the current branch
 ```powershell
 git branch -m <new_name>
