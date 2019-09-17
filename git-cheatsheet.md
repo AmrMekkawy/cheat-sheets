@@ -316,6 +316,35 @@ git remote add origin <remote_repository_url>
 
 <br>
 
+## Config
+
+### How to list all configs of your git?
+
+```powershell
+git config --list
+```
+
+### How to globally set your account's default identity?
+
+```powershell
+git config --global user.name "Your Name"
+git config --global user.email "you@example.com"
+git config --global user.password "your password"
+```
+
+<br>
+
+### How to set your account's identity only in current repository?
+
+```powershell
+# Run these commands in your Project/Repo root directory
+git config user.name "Your Name"
+git config user.email "you@example.com"
+git config user.password "your password"
+```
+
+<br>
+
 ## How to ignore files that have already been committed to the repo?
 
 ```
