@@ -11,6 +11,24 @@ A cheat sheet for common and repeatedly used commands in **git** version control
 git clone <remote_repo_url> [<name_of_the_folder_to_clone_the_repo_in>]
 ```
 
+Note that if you run `git branch` command which shows the local branches, you will only see `master` branch not all branches. To see all branches (local and remote), run this command `git branch --all`.
+
+```shell
+# Show all local and remote branches
+git branch --all
+```
+
+And you can switch to any branch which you already have like this:
+
+```shell
+# Switch to another branch
+git checkout <branch_name>
+```
+
+And you can repeat this command `git checkout <branch_name>` to show that branch locally.
+
+More info, [check this answer](https://stackoverflow.com/questions/67699/how-to-clone-all-remote-branches-in-git/27020944#27020944).
+
 <br>
 
 ### Clone a single branch from a remote repo (without inadvertently cloning the whole project).
