@@ -14,11 +14,9 @@ start /path/to/file-name.txt
 start "" "/path/to/file name.txt"
 ```
 
-Note that the file will be opened in the default program that is set to open these type of files.
+Note that the file will be opened in the default program that is set to open these type of files. More info: [t.ly/zbebX](https://t.ly/zbebX) and [t.ly/eOYOD](https://t.ly/eOYOD).
 
-More info: [t.ly/zbebX](https://t.ly/zbebX) and [t.ly/eOYOD](https://t.ly/eOYOD)
-
----
+<br>
 
 ### How to copy a file or a directory and its contents?
 
@@ -29,9 +27,9 @@ More info: [t.ly/zbebX](https://t.ly/zbebX) and [t.ly/eOYOD](https://t.ly/eOYOD)
 cp -R path/to/source/file/or/directory/ path/to/destination/file/or/directory/
 ```
 
----
+<br>
 
-### How to remove/delete a file or a directory and its contents? 
+### How to remove/delete a file or a directory and its contents?
 
 ```shell
 # Remove/Delete a file or a directory and its contents
@@ -39,7 +37,7 @@ cp -R path/to/source/file/or/directory/ path/to/destination/file/or/directory/
 rm -rf path/to/the/file/or/directory/to/delete/
 ```
 
----
+<br>
 
 ### How to empty a file without opening it (i.e. remove its content)?
 
