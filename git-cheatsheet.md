@@ -25,7 +25,7 @@ And you can switch to any branch which you already have like this:
 git checkout <branch_name>
 ```
 
-Note that the `<branch_name>` could looks like this: `remotes/origin/beta` for example. You should write the full name in the command to be like this (for example): `git checkout remotes/origin/beta`. You may need to run this command after that: `git checkout -b beta` if the branch name is `beta`.
+Note that the `<branch_name>` could looks like this: `remotes/origin/beta` for example. You should write the full name in the command to be like this (for example): `git checkout remotes/origin/beta`. You may need to run this command after that: `git checkout -b beta` if you wanted to name that branch on your local machine `beta`. You can name it with any other name if you want.
 
 And you can repeat this command `git checkout <branch_name>` to show that branch locally.
 
