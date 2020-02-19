@@ -42,7 +42,8 @@ rm -rf path/to/the/file/or/directory/to/delete/
 ### How to empty a file without opening it (i.e. remove its content)?
 
 ```shell
-# Empty a file without opening it (i.e. remove its content). More info: t.ly/RMwNb and t.ly/pv2p9
+# Empty a file without opening it (i.e. remove its content). 
+# More info: t.ly/RMwNb and t.ly/pv2p9 and t.ly/gwJE6
 # Supposing the file you want to empty is file-name.log
 > file-name.log
 ```

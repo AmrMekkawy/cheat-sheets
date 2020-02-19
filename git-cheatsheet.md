@@ -25,6 +25,8 @@ And you can switch to any branch which you already have like this:
 git checkout <branch_name>
 ```
 
+Note that the `<branch_name>` could looks like this: `remotes/origin/beta` for example. You should write the full name in the command to be like this (for example): `git checkout remotes/origin/beta`. You may need to run this command after that: `git checkout -b beta` if the branch name is `beta`.
+
 And you can repeat this command `git checkout <branch_name>` to show that branch locally.
 
 More info, [check this answer](https://stackoverflow.com/questions/67699/how-to-clone-all-remote-branches-in-git/27020944#27020944).
@@ -46,7 +48,7 @@ git clone <remote_repo_url> --branch <name_of_desired_branch> --single-branch [<
 # Get the the whole repository first
 git clone <remote_repo_url> [<name_of_the_folder_to_clone_the_repo_in>]
 
-# After the clone, you can list the tags with 
+# After the clone, you can list the tags with
 git tag -n
 
 # Then checkout a specific tag (See the next step first)
