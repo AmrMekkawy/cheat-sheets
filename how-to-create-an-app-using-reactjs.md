@@ -58,9 +58,20 @@ npm install @mdi/react @mdi/js
 
 <br>
 
-### Install [X-Framework](https://github.com/AmrMekkawy/x-framework)
+### Install [x-framework](https://github.com/AmrMekkawy/x-framework) package
 
 ```shell
 npm install x-framework
 ```
 
+<br>
+
+
+
+<br>
+
+## Useful Resources
+
+<br>
+
+### [Airbnb React/JSX Style Guide](https://github.com/airbnb/javascript/tree/master/react)
