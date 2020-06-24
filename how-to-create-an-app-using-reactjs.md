@@ -35,7 +35,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 ### Install [React Bootstrap](https://react-bootstrap.github.io/) package.
 
 ```shell
-npm install react-bootstrap bootstrap
+npm install react-bootstrap
 ```
 
 To use [`react-bootstrap`](https://react-bootstrap.github.io/) package in your React app, import the component(s) you want to use like this:
