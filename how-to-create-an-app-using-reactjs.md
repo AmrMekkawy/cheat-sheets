@@ -7,7 +7,9 @@
 ```shell
 # Replace 'my-app-name' with your app directory name
 npx create-react-app my-app-name
+
 cd my-app-name
+
 npm start
 ```
 
