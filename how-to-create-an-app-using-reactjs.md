@@ -8,8 +8,10 @@
 # Replace 'my-app-name' with your app directory name
 npx create-react-app my-app-name
 
+# Go inside the app directory
 cd my-app-name
 
+# IMPORTANT: Don't run this command now. Run it after installing the following packages.
 npm start
 ```
 
