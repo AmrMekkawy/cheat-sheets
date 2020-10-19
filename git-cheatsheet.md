@@ -347,6 +347,14 @@ git commit -m "Clean up ignored files"
 
 <br>
 
+## Revert commits
+
+```shell
+# This will revert the last two commits:
+git revert HEAD~2..HEAD
+```
+[More info](https://stackoverflow.com/a/4114122/458204).
+
 
 ## Config
 
