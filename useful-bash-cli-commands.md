@@ -81,7 +81,11 @@ find . -name "*.mp3" -maxdepth 1
 scp <name_of_the_file> <username_of_your_hosting_account>@<hostname_or_ip_of_your_remote_server>:<the/path/on/the/remote/server/to/upload/the/file/to>
 
 # Example:
-scp test-file.txt amr@108.167.155.70:~/www/directory-name
+# This will upload the file with the same name
+scp file-name.zip amr@108.167.155.70:~/www/directory-name
+
+# (OR) Use this command to upload the file with another name
+scp file-name.zip amr@108.167.155.70:~/www/directory-name/another-file-name.zip
 ```
 
 Note that the source could also be a remote server not your local machine. Also, you can download files from your remote sever to your local machine. [Check this](https://superuser.com/a/850743/398793) for more info about this.
