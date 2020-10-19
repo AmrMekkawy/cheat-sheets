@@ -64,7 +64,7 @@ find . -name "*.mp3" -maxdepth 1
 
 <br>
 
-### How to empty a file without opening it (i.e. remove its content)?
+### Empty a file without opening it (i.e. remove its content)
 
 ```shell
 # Empty a file without opening it (i.e. remove its content). 
@@ -73,3 +73,38 @@ find . -name "*.mp3" -maxdepth 1
 > file-name.log
 ```
 
+<br>
+
+### Upload a file from your local machine to your remote server
+
+```shell
+scp <name_of_the_file> <username_of_your_hosting_account>@<hostname_or_ip_of_your_remote_server>:<the/path/on/the/remote/server/to/upload/the/file/to>
+
+# Example:
+scp test-file.txt amr@108.167.155.70:~/www/directory-name
+```
+
+Note that the source could also be a remote server not your local machine. Also, you can download files from your remote sever to your local machine. [Check this](https://superuser.com/a/850743/398793) for more info about this.
+
+<br>
+
+### Zip and Unzip a file or a folder on you remote server
+
+```shell
+zip -r <file_name.zip> <source_file_or_folder>
+
+# If "zip" app is not installed on your remote server, install it like this:
+sudo apt-get install zip
+```
+
+```shell
+unzip <file_name.zip> -d <destination_file_or_folder>
+
+# (OR) If the source and destination files or directories are the same, you can simply do:
+unzip <file_name.zip>
+
+# If "unzip" app is not installed on your remote server, install it like this:
+sudo apt-get install unzip
+```
+
+<br>
