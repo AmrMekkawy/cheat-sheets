@@ -2,7 +2,7 @@
 
 <br>
 
-### Open (in Windows) a file from the Terminal
+### Open a file (in Windows)
 
 ```powershell
 # If there is no spaces in the file name 
@@ -16,7 +16,7 @@ Note that the file will be opened in the default program that is set to open the
 
 <br>
 
-### Open (in Windows) a folder from the Terminal
+### Open a folder (in Windows)
 
 ```shell
 # start <folder_to_open>
