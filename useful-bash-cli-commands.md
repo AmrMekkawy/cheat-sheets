@@ -2,19 +2,28 @@
 
 <br>
 
-### Open a file from within Bash CLI on Windows
+### Open (in Windows) a file from the Terminal
 
 ```powershell
 # If there is no spaces in the file name 
 start <file_to_open>
 
-# OR
-
-# If there is a space or more in the file name
+# (OR) If there is a space or more in the file name
 start "" "<file_to_open>"
 ```
 
 Note that the file will be opened in the default program that is set to open these type of files. More info: [t.ly/zbebX](https://t.ly/zbebX) and [t.ly/eOYOD](https://t.ly/eOYOD).
+
+<br>
+
+### Open (in Windows) a folder from the Terminal
+
+```shell
+# start <folder_to_open>
+
+# (OR) If you're already inside the folder, use "." like this:
+start .
+```
 
 <br>
 
