@@ -19,7 +19,7 @@ Note that the file will be opened in the default program that is set to open the
 ### Open a folder (in Windows)
 
 ```shell
-# start <folder_to_open>
+start <folder_to_open>
 
 # (OR) If you're already inside the folder, use "." like this:
 start .
