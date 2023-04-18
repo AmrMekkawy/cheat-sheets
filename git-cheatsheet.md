@@ -92,8 +92,9 @@ git pull origin master
 **Push a specific branch..**
 
 ```shell
-git push -u origin <branch_name>
+git push -u origin <local_branch_name>
 ```
+[More info here](https://poe.com/s/gGK7zAL2DVJHWn2s2Iky)
 
 <br>
 
